@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Garments</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Asap|Dosis|Mogra|Josefin+Sans" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <style>
+    .col-lg-4{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .hidden{display: none;}
+
+    .overlay{
+        position: absolute;
+        width: auto;
+        height: auto;
+        background-color: white;
+        z-index: 2;
+        top: 0;
+    }
+
+    .image-menu img{
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .overlay img{
+        opacity: 0.3;
+    }
+
+    .image-menu .image-menu-desc{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .quick:hover .overlay{
+        display: block !important;
+    }
+
+
+    .image-menu .image-menu-desc .text{
+        color: black;
+        font-size: 25px;
+        font-family: 'Dosis', sans-serif;
+        margin-top: 50%;
+    }
+
+    .imgbox{
+        margin-right: 120px;
+        margin-bottom: 100px;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .image-menu .image-menu-desc .text{
+            font-size: 15px;
+        }
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .imgbox {
+            width: 230px;
+            height: 230px;
+        }
+    }
+    </style>
+</head>
+<body>
+<section>
+    <div class="image-menu">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 quick imgbox">
+            <a href="hoodies.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/g-h2.jpg" alt="Hoodies">
+                    <div class="image-menu-desc text-center">
+                        <p class="text title1" id="title1-1">Hoodies</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/g-h2.jpg" alt="Hoodies">
+            <div class="image-menu-desc text-center">
+                <p class="text title1" id="title1-2">Hoodies</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 quick imgbox">
+            <a href="jackets.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/g-j1.jpg" alt="Jackets">
+                    <div class="image-menu-desc text-center">
+                        <p class="text title2" id="title2-1">Jackets</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/g-j1.jpg" alt="Jackets">
+            <div class="image-menu-desc text-center">
+                <p class="text title2" id="title2-1">Jackets</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 quick imgbox">
+            <a href="shirts.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/g-ts1.jpg" alt="Shirts & T-shirts">
+                    <div class="image-menu-desc text-center">
+                        <p class="text title3" id="title3-1">Shirts & T-shirts</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/g-ts1.jpg" alt="Shirts & T-shirts">
+            <div class="image-menu-desc text-center">
+                <p class="text title3" id="title3-1">Shirts & T-shirts</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding quick imgbox">
+            <a href="trousers.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/g-jt1.jpg" alt="Jeans & Trousers">
+                    <div class="image-menu-desc text-center">
+                        <p class="text title4" id="title4-1">Jeans & Trousers</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/g-jt1.jpg" alt="Jeans & Trousers">
+            <div class="image-menu-desc text-center">
+                <p class="text title4" id="title4-2">Jeans & Trousers</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding quick imgbox">
+            <a href="shoes.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/g-s1.jpg" alt="Shoes">
+                    <div class="image-menu-desc text-center">
+                        <p class="text title5" id="title5-1">Shoes</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/g-s1.jpg" alt="Shoes">
+            <div class="image-menu-desc text-center">
+                <p class="text title5" id="title5-2">Shoes</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding quick imgbox">
+            <a href="caps.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/g-cs1.jpg" alt="Caps & Scarves">
+                    <div class="image-menu-desc text-center">
+                        <p class="text title6" id="title6-1">Caps & Scarves</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/g-cs1.jpg" alt="Caps & Scarves">
+            <div class="image-menu-desc text-center">
+                <p class="text title6" id="title6-1">Caps & Scarves</p>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</section>
+
+</body>
+</html>

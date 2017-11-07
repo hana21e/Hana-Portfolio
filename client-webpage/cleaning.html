@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Honest Variety">
+    <meta name="keywords" content="2 Dollar Shop, Two Dollar Shop">
+    <meta name="author" content="Hana Lee / Yvonne">
+    <meta name="generator" content="Sublime Text">
+    <title>Cleaning</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Asap|Dosis|Mogra|Josefin+Sans" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <style>
+    .col-lg-4{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .hidden{display: none;}
+
+    .overlay{
+        position: absolute;
+        width: auto;
+        height: auto;
+        background-color: white;
+        z-index: 2;
+        top: 0;
+    }
+
+    .image-menu img{
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .overlay img{
+        opacity: 0.3;
+    }
+
+    .image-menu .image-menu-desc{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .quick:hover .overlay{
+        display: block !important;
+    }
+
+
+    .image-menu .image-menu-desc .text{
+        color: black;
+        font-size: 25px;
+        font-family: 'Dosis', sans-serif;
+        margin-top: 50%;
+    }
+
+    .imgbox{
+        margin-right: 120px;
+        margin-bottom: 100px;
+    }
+
+
+    @media only screen and (max-width: 700px) {
+        .image-menu .image-menu-desc .text{
+            font-size: 15px;
+        }
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .imgbox {
+            width: 230px;
+            height: 230px;
+        }
+    }
+    </style>
+</head>
+<body>
+<section>
+    <div class="image-menu">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 quick imgbox">
+            <a href="bathroom_cleaning.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/cl-bc1.jpg" alt="Bathroom cleaning products">
+                    <div class="image-menu-desc text-center">
+                        <p class="text" id="title1">Bathroom Cleaning</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/cl-bc1.jpg" alt="Bathroom cleaning products">
+            <div class="image-menu-desc text-center">
+                <p class="text" id="title1">Bathroom Cleaning</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 quick imgbox">
+            <a href="rubbish_bin.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/cl-rb1.jpg" alt="Rubbish Bins">
+                    <div class="image-menu-desc text-center">
+                        <p class="text" id="title2">Rubbish Bin</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/cl-rb1.jpg" alt="Rubbish Bins">
+            <div class="image-menu-desc text-center">
+                <p class="text" id="title2">Rubbish Bin</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 quick imgbox">
+            <a href="chemical_cleaning.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/cl-cc1.jpg" alt="Chemical cleaning products">
+                    <div class="image-menu-desc text-center">
+                        <p class="text" id="title3">Chemical Cleaning</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/cl-cc1.jpg" alt="Chemical cleaning products">
+            <div class="image-menu-desc text-center">
+                <p class="text" id="title3">Chemical Cleaning</p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding quick imgbox">
+            <a href="cleaning_accessorise.html">
+                <div class="overlay hidden">
+                    <img src="image/products_images/cl-ca1.jpg" alt="Cleaning accessorise ">
+                    <div class="image-menu-desc text-center">
+                        <p class="text" id="title1">Cleaning Accessorise</p>
+                    </div>
+                </div>
+            </a>
+            <img src="image/products_images/cl-ca1.jpg" alt="Cleaning accessorise">
+            <div class="image-menu-desc text-center">
+                <p class="text" id="title1">Cleaning Accessorise</p>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</section>
+
+</body>
+</html>
