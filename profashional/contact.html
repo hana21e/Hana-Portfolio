@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Part 13 : META tag -->
+	<meta charset="UTF-8">
+	<meta name="description" content="Profashional is a street fashion of four fashionable cities - London, Paris, Milano and New York - website by four different awesome photographers - Scott Schuman, Phil Oh, Candice Lake and Adam Katz Sinding.">
+	<meta name="robots" content="Street fashion, Fashion, Style">
+	<meta name="googlebot" content="Street fashion, Fashion, Style">
+	<meta name="keywords" content="Street fashion, Fashion, Style">
+	<meta name="author" content="Hana Lee">
+	<meta name="generator" content="Sublime Text">
+
+	<!-- Part 13 : Unique title -->
+	<title>Profashional - CONTACT</title>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<!-- Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:700|Pacifico|Quicksand:400,700" rel="stylesheet">
+
+
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+	<!-- BOOTSTRAP -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body class="contact">
+
+	<div class="container-fluid nav-cont" id="nav-cont">
+		<button class="menu-btn"><span class="menu-icon">+</span></button>
+		<nav class="container-fluid nvm">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="streetstyle.html">STREET STYLE</a></li>
+				<li><a href="fashionweek.html">FASHION WEEK</a></li>
+				<li><a href="taken-by.html">TAKEN BY</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="container-fluid black"></div>
+
+	<div class="contents container-fluid container">
+		<div class="cont-box" id="cont-box1">
+			<h4>For commissions, collaborations, advertising opportunities on the site, or just to get in touch…</h4>
+			<h2><b>Contact Us</b></h2>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<div class="cont-box" id="cont-box2">
+			<table>
+				<tr>
+					<td><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></td>
+					<td>profashional@gmail.com</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-phone fa-2x" aria-hidden="true"></i></td>
+					<td>029 1234 5678</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></td>
+					<td>@Profashional_photo</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+<script type="text/javascript">
+	// Part 15 : Toggle Nav Menu
+	$(document).ready(function() {
+		$('#nav-cont').on('click','.menu-btn', function() {
+			$(".nvm").slideToggle(300, function() {
+				if($('.nvm').is(':visible')) {
+					$('.menu-btn span').html('×');
+					$('.black').show();
+				} else {
+					$('.menu-btn span').html('+');
+					$('.black').hide();
+				}
+			});
+		});
+	});
+
+</script>
+</body>
+</html>

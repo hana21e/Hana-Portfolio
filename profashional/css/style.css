@@ -1,0 +1,442 @@
+* {
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	background-color: #F1F1F1;
+}
+
+ul li {
+	list-style: none;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+.enter-btn {
+	margin-top: 50px;
+}
+
+.enter a:link{color: grey;}
+.enter a:visited{color: grey;}
+.enter a:hover{color: #d83019;}
+
+/* Nav */
+.nav-cont {
+	/*background-color: #F1F1F1;*/
+	height: 70px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.menu-btn {
+	background-color: transparent !important;
+	border: none !important;
+	margin-left: 20px;
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.menu-icon {
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+
+/* Hidden nav */
+.nvm ul li {
+	font-size: 15px;
+}
+
+.nvm {
+	display: none;
+	height: 100px;
+	position: absolute;
+	z-index: 88;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: 40px;
+	background-color: #F1F1F1;
+}
+
+.nvm ul li a {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+	float: left;
+	margin-left: 130px;
+}
+
+.nvm ul li a:link{color: grey;}
+.nvm ul li a:visited{color: grey;}
+.nvm ul li a:hover{color: black;}
+.nvm ul li a:active{color: black;}
+
+.black {
+	width: 100%;
+	height: auto;
+	display: none;
+	background-color: black;
+	opacity: 0.3;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 60
+}
+
+
+
+/* Fonts */
+.ind_tt, #change, .thisis, .profs {
+	font-family: 'Pacifico', cursive;
+}
+
+
+
+
+/* Overlay */
+.st-style .overlay, .f-week .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 2;
+	top: 0;
+	opacity: 0.5;
+}
+
+.st-style .overlay {
+	cursor: pointer;
+}
+
+.takenby .overlay {
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	opacity: 0.2;
+	margin-top: -300px;
+}
+
+
+
+
+
+/* HOME */
+.home {
+	text-align: center;
+	vertical-align: center;
+}
+
+.ind_tt {
+	font-size: 100px;
+	color: #3a3a3a;
+	opacity: 0.8;
+}
+
+.main {
+	margin-top: 250px;
+}
+
+.text {
+	text-align: center;
+	vertical-align: center;
+}
+
+
+
+
+
+
+
+/* STREET STYLE */
+/* menu */
+.menunav {
+	margin-top: 100px;
+}
+
+.menunav ul {
+	position: fixed;
+	width: 100%;
+	top: 100px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.menunav ul li {
+	margin-bottom: 20px;
+}
+
+.mark-icon {
+	display: none;
+}
+
+#mark1 {
+	color: #d69e98;
+}
+
+#mark2 {
+	color: #a4b0c1;
+}
+
+#mark3 {
+	color: #7b997c;
+}
+
+#mark4 {
+	color: #e8dca9;
+}
+
+/* Contents - Images */
+.cont-text-box {
+	margin-top: 120px;
+	margin-left: 100px;
+}
+
+.st-style .imgbox {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.st-style .imgbox img {
+	height: auto;
+	width: 100%;
+}
+
+.st-style .cont-box {
+	display: none;
+}
+
+.quick:hover .show{
+	display: block !important;
+}
+
+.st-style .imgbox .image-menu-desc{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	cursor: pointer;
+	z-index: 10;
+	opacity: 0.5;
+}
+
+.st-style .imgbox .image-menu-desc .text{
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
+
+
+
+/* FASHION WEEK */
+.thisis {
+	font-size: 35px;
+}
+
+.f-week .contents {
+	margin-top: 50px;
+}
+
+#contbox1 {
+	margin-bottom: 50px;
+}
+
+#contbox2 {
+	margin-top: 100px;
+}
+
+#contbox4 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.f-week h3 {
+	margin-bottom: 20px;
+}
+
+.f-week .carousel-caption{
+	bottom: 100px;
+}
+
+.f-week .carousel-caption .caption-title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+}
+
+.f-week .carousel-caption .caption-desc{
+	font-size: 24px;
+}
+
+
+
+
+
+
+/* TAKEN BY */
+.takenby .contents {
+	margin-top: 10px;
+}
+
+.takenby .imgbox {
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+.takenby .imgbox img {
+	height: 300px;
+	width: 300px;
+}
+
+.takenby .cont-box {
+	margin: auto;
+	width: 55%;
+}
+
+.text-center {
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	color: white
+}
+
+.keyboard{
+	color: black;
+	margin-top: 60px;
+}
+
+.directional-icon {
+	opacity: 0.7;
+}
+
+.about {
+	display: none;
+}
+
+.name {
+	font-size: 25px;
+}
+
+.text {
+	font-size: 30px;
+}
+
+
+
+
+
+
+/* CONTACT */
+.profs {
+	font-size: 20px;
+}
+
+.contact .contents {
+	margin-top: 200px;
+}
+
+.contact .cont-box {
+	margin: auto;
+	width: 50%;
+	margin-bottom: 50px;
+}
+
+.cont-box table tr {
+	height: 40px;
+}
+
+.cont-box table tr td:first-child {
+	width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1053px) {
+	.nvm ul li {
+		font-size: 15px;
+	}
+
+	.nvm ul li a {
+		margin-left: 80px;
+	}
+}
+
+@media screen and (max-width: 837px) {
+	.nvm ul li {
+		font-size: 13px;
+	}
+
+	.nvm ul li a {
+		margin-left: 40px;
+	}
+}
+
+@media screen and (max-width: 537px) {
+	.nvm ul li a {
+		margin-left: 40px;
+		margin-bottom: 20px;
+	}
+
+	.nvm {
+		height: 150px;
+	}
+}
+
+
+
+/* HONE */
+@media screen and (max-width: 700px) {
+	.ind_tt {
+		font-size: 50px;
+	}
+
+	.home h3 {
+		font-size: 15px;
+	}
+}
+
+
+/* STREET STYLE */
+@media screen and (max-width: 600px) {
+	.menunav ul li{
+		transform: rotate(-30deg);
+	}
+
+	.menunav ul {
+		position: fixed;
+		width: 100%;
+		top: 30px;
+		left: -40px;
+		right: 0;
+		bottom: 0;
+	}
+}

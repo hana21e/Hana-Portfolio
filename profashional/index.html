@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Part 13 : META tag -->
+	<meta charset="UTF-8">
+	<meta name="description" content="Profashional is a street fashion of four fashionable cities - London, Paris, Milano and New York - website by four different awesome photographers - Scott Schuman, Phil Oh, Candice Lake and Adam Katz Sinding.">
+	<meta name="robots" content="Street fashion, Fashion, Style">
+	<meta name="googlebot" content="Street fashion, Fashion, Style">
+	<meta name="keywords" content="Street fashion, Fashion, Style">
+	<meta name="author" content="Hana Lee">
+	<meta name="generator" content="Sublime Text">
+
+	<!-- Part 13 : Unique title -->
+	<title>Profashional</title>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<!-- Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:700|Pacifico|Quicksand:400,700" rel="stylesheet">
+
+
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+	<!-- BOOTSTRAP -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body class="home">
+
+<div class="main">
+		<div class="text">
+			<span class="ind_tt">Pro<span id="change">fession</span>al</span>
+		</div>
+		<h3>You are the model</h3>
+		<span class="enter">
+			<a href="streetstyle.html"><i class="fa fa-circle-o fa-3x enter-btn" aria-hidden="true"></i></a>
+		</span>
+</div>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.enter').mouseover(function() {			// Part 19 : Three different events 1 (Mouse events : Mouseover)
+			$('#change').text("fashion");
+			$('#change').css('color','#d83019');
+		});
+
+		$('.enter').mouseout(function() {			// Part 19 : Three different events 2 (Mouse events : Mouseout)
+			$('#change').text("fession");
+			$('#change').css('color','#3a3a3a');
+		});
+	});
+</script>
+</body>
+</html>
