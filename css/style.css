@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Asap');
+
+body {
+	font-size: 14px !important;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+
+
+
+/* NAV */
+nav ul li {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+nav ul a{
+	text-decoration: none !important;
+}
+
+.content-title a:link {color: #fff;}
+.content-title a:visited {color: #fff;}
+.content-title a:hover {color: #d1d1d1;}
+.content-title a:active {color: #fff;}
+
+.goto a:link {color: grey;}
+.goto a:visited {color: grey;}
+.goto a:hover {color: #d1d1d1;}
+.goto a:active {color: #d1d1d1;}
+
+.projectMenu a:link {color: #465A7F;}
+.projectMenu a:visited {color: #465A7F;}
+.projectMenu a:hover {color: #d1d1d1;}
+.projectMenu a:active {color: #d1d1d1;}
+
+
+
+
+/* CONTENTS */
+#screen2 {
+	background-color: #282828;
+}
+
+#screen3 {
+	background-color: #232323;
+}
+
+.content-image2 img {
+	position: absolute;
+	top: 75%;
+    left: 92%;
+	width: 50px;
+	height: 50px;
+}
+
+.scroll-down {
+	margin-top: 55px;
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 75%;
+    left: 92%;
+	width: 50px;
+	height: 50px;
+}
+
+.indexpg .scroll-down {
+	left: 92.8%;
+}
+
+.indexpg video, #screen1 .sec1-bg img {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}
+
+.video-cont {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullvideo {
+	width: 100%;
+	height: 100%;
+}
+
+#screen1 .sec1-bg img {
+    top: 50%;
+    left: 50%;
+}
+
+#text-title {
+	font-size: 4vh;
+}
+
+
+
+
+/* Home */
+.main-bg {
+	background-color: #282828;
+}
+
+.content-wrapper .content-image img {
+	width: 50px;
+	height: 50px;
+}
+
+.content-title {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content-subtitle {
+	margin-bottom: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Graphic */
+.graphicpg .sec-pj img {
+	width: auto;
+	height: 100vh;
+}
+
+.ps-poster img {
+	float: left;
+}
+
+.ai-poster img {
+	float: right;
+}
+
+.ps-text {
+	float: left;
+	text-align: left;
+	font-size: 2vh;
+	margin-left: 10vh;
+	margin-top: 10vh;
+}
+
+.ai-text {
+	float: right;
+	text-align: right;
+	font-size: 2vh;
+	margin-right: 10vh;
+	margin-top: 70vh;
+}
+
+
+
+/* Media */
+.mv-text1 {
+	font-size: 2vh;
+	margin-left: 10vh;
+	padding-top: 12vh;
+}
+
+.mv-text2 {
+	font-size: 2vh;
+	margin-top: 2vh;
+}
+
+
+
+/* Web */
+.webpg .scroll-down {
+	color: grey;
+}
+
+.webpg .sec-pj .web img {
+	width: auto;
+	height: 49.9vh;
+}
+
+#web1 img {
+	float: left;
+}
+
+#web2 img {
+	float: right;
+}
+
+.web1-text {
+	float: left;
+	text-align: left;
+	font-size: 2vh;
+	margin-left: 10vh;
+	margin-top: 10vh;
+}
+
+#text-title {
+	font-size: 4vh;
+}
+
+.web2-text {
+	float: right;
+	text-align: right;
+	font-size: 2vh;
+	margin-right: 10vh;
+	margin-top: 10vh;
+}
+
+.visit-page {
+	font-size: 14px;
+}
+
+#visit-page1 a:link {color: #d83019;}
+#visit-page1 a:visited {color: #d83019;}
+#visit-page2 a:link {color: #00bfff;}
+#visit-page2 a:visited {color: #00bfff;}
+.visit-page a:hover {color: #878787;}
+.visit-page a:active {color: #878787;}
+
+
+
+
+/* About */
+.aboutpg #screen1 {
+	background-color: #98a2b5;
+}
+
+.aboutpg #screen2 {
+	background-color: #e8eef9;
+}
+
+.aboutpg #screen3 {
+	background-color: #F3F7FF;
+}
+
+.content-title img {
+	width: 50%;
+	margin-top: 200px;
+}
+
+.profile img {
+	height: 100vh;
+	width: auto;
+}
+
+.profileText {
+	color:#556B7F;
+	font-size: 3vh;
+	text-align: right;
+	float: right;
+	margin-top: 100px;
+	margin-right: 40px;
+	margin-left: 80px;
+}
+
+.material-icons {
+	font-size: 18px;
+}
+
+.icons {
+	font-size: 2vh;
+}
+
+.icons a {
+	text-decoration: none;
+}
+
+.skills-text {
+	text-align: left;
+	padding-top: 30vh;
+	margin-left: 20vh;
+}
+
+.about-skills img {
+	height: 100vh;
+	width: auto;
+	float: right;
+}
+
+.skills-list {
+	font-size: 2vh;
+	margin-top: 10vh;
+	color:#556B7F;
+}
